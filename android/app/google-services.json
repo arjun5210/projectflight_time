@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "553521600527",
+    "project_id": "rateconverter-774eb",
+    "storage_bucket": "rateconverter-774eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553521600527:android:634b11025e815145d96b7a",
+        "android_client_info": {
+          "package_name": "com.example.projectconvert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSr3Z5N5QmKS3Oz2Hy2GWhqWXSQwGYpkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
