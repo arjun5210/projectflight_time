@@ -41,7 +41,9 @@ dependencies:
   bloc: 
   firebase_core:
   firebase_auth:
-  google_fonts: 
+  google_fonts:
+  shared_preferences: 
+  sqflite:  
 
 dev_dependencies:
   flutter_test:

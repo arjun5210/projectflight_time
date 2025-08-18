@@ -7,6 +7,7 @@ import 'package:projectconvert/Auth/screen/reg_page.dart';
 
 import 'package:projectconvert/Home/bloc/home_bloc.dart';
 import 'package:projectconvert/Home/screen/currency_page.dart';
+import 'package:projectconvert/page/home_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: AuthWrapper(),
+      home: HomeScreen(),
       //Authwrapper
     );
   }
