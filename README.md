@@ -2,6 +2,35 @@
 # projectconvert
 
 A new Flutter project.
+Overview
+
+A simple real-time chat app built with Flutter and Firebase. Users can chat 1-to-1, see each other’s online status, and know when messages are read.
+
+Features
+
+Display all users from Firestore.
+
+1-to-1 real-time messaging.
+
+Single ✔ = message sent, double ✔✔ = message read.
+
+Online users show a green dot, offline users show last seen time.
+
+Message timestamps.
+
+Simple user tiles showing user details.
+
+Firebase Setup
+
+Firestore
+
+users collection: stores user details like displayName, email, phone.
+
+chats/{chatId}/messages collection: stores messages with senderId, receiverId, text, timestamp, read.
+
+Realtime Database
+
+status/{userId}: stores state (online/offline) and last_seen.
 
 ## Getting Started
 
